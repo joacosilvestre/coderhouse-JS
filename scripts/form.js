@@ -108,7 +108,6 @@ btnBackHome.addEventListener('click', () => {
     location.href = './index.html';
 });
 
-//-----Focus en inputs
 inputEmail.addEventListener('focus', () => {
     inputEmail.classList.add('focus');
 });
@@ -123,6 +122,7 @@ inputDni.addEventListener('focus', () => {
 });
 inputPhone.addEventListener('focus', () => {
     inputPhone.classList.add('focus');
+    
 });
 
 
