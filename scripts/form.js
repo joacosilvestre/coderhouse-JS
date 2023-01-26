@@ -55,7 +55,7 @@ btnSubmit.addEventListener('click', (e) => {
     e.preventDefault();
     let inputs = document.comprarForm.input;
     let validToBuy = true;
-    if (cart.length == 0) { //ya realizó la compra
+    if (cart.length == 0) {
         finishBuyToastyTitle.textContent = 'Carrito Vacio :/';
         finishBuyToastyMessage.textContent = 'Vuelva a la pagina principal y cargue productos en su carrito';
         finishBuyToasty.classList.add('visible');
